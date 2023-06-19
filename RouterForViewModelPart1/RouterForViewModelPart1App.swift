@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct RouterForViewModelPart1App: App {
+    @StateObject var router = Router()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(router: router)
         }
     }
 }

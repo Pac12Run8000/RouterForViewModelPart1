@@ -11,6 +11,11 @@
 		09854F022A3FEBFA00246A35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F012A3FEBFA00246A35 /* ContentView.swift */; };
 		09854F042A3FEBFC00246A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09854F032A3FEBFC00246A35 /* Assets.xcassets */; };
 		09854F072A3FEBFC00246A35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09854F062A3FEBFC00246A35 /* Preview Assets.xcassets */; };
+		09854F0F2A3FED6E00246A35 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F0E2A3FED6E00246A35 /* Router.swift */; };
+		09854F122A3FEE1D00246A35 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F112A3FEE1D00246A35 /* ProfileViewModel.swift */; };
+		09854F152A3FEEC000246A35 /* UpdateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F142A3FEEC000246A35 /* UpdateProfileView.swift */; };
+		09854F172A3FEEF700246A35 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F162A3FEEF700246A35 /* DashboardView.swift */; };
+		09854F192A3FF13300246A35 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F182A3FF13300246A35 /* DashBoardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		09854F012A3FEBFA00246A35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09854F032A3FEBFC00246A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09854F062A3FEBFC00246A35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09854F0E2A3FED6E00246A35 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		09854F112A3FEE1D00246A35 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		09854F142A3FEEC000246A35 /* UpdateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileView.swift; sourceTree = "<group>"; };
+		09854F162A3FEEF700246A35 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		09854F182A3FF13300246A35 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,10 @@
 		09854EFE2A3FEBFA00246A35 /* RouterForViewModelPart1 */ = {
 			isa = PBXGroup;
 			children = (
+				09854F132A3FEE5F00246A35 /* Views */,
+				09854F102A3FED9A00246A35 /* ViewModel */,
+				09854F0D2A3FED5F00246A35 /* Router */,
 				09854EFF2A3FEBFA00246A35 /* RouterForViewModelPart1App.swift */,
-				09854F012A3FEBFA00246A35 /* ContentView.swift */,
 				09854F032A3FEBFC00246A35 /* Assets.xcassets */,
 				09854F052A3FEBFC00246A35 /* Preview Content */,
 			);
@@ -65,6 +77,33 @@
 				09854F062A3FEBFC00246A35 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09854F0D2A3FED5F00246A35 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				09854F0E2A3FED6E00246A35 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		09854F102A3FED9A00246A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09854F112A3FEE1D00246A35 /* ProfileViewModel.swift */,
+				09854F182A3FF13300246A35 /* DashBoardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09854F132A3FEE5F00246A35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09854F012A3FEBFA00246A35 /* ContentView.swift */,
+				09854F142A3FEEC000246A35 /* UpdateProfileView.swift */,
+				09854F162A3FEEF700246A35 /* DashboardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09854F022A3FEBFA00246A35 /* ContentView.swift in Sources */,
+				09854F172A3FEEF700246A35 /* DashboardView.swift in Sources */,
+				09854F152A3FEEC000246A35 /* UpdateProfileView.swift in Sources */,
+				09854F192A3FF13300246A35 /* DashBoardViewModel.swift in Sources */,
+				09854F0F2A3FED6E00246A35 /* Router.swift in Sources */,
+				09854F122A3FEE1D00246A35 /* ProfileViewModel.swift in Sources */,
 				09854F002A3FEBFA00246A35 /* RouterForViewModelPart1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
