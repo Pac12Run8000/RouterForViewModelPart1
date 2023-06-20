@@ -14,10 +14,10 @@ class ViewModel: ObservableObject {
         self.router = router
     }
 
-    func viewDashboard() {
+    func goToDashboard() {
         router.navigateToDashboard()
     }
-    func updateProfile() {
+    func goToProfile() {
         router.navigateToUpdateProfile()
     }
 }

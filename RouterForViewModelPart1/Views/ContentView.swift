@@ -26,12 +26,12 @@ struct ContentView: View {
                     EmptyView()
                 }
                 Button {
-                    viewModel.updateProfile()
+                    viewModel.goToProfile()
                 } label: {
                     Text("Update profile")
                 }
                 Button {
-                    viewModel.viewDashboard()
+                    viewModel.goToDashboard()
                 } label: {
                     Text("View Dashboard")
                 }
