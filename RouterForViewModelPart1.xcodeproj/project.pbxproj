@@ -16,6 +16,7 @@
 		09854F152A3FEEC000246A35 /* UpdateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F142A3FEEC000246A35 /* UpdateProfileView.swift */; };
 		09854F172A3FEEF700246A35 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F162A3FEEF700246A35 /* DashboardView.swift */; };
 		09854F192A3FF13300246A35 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F182A3FF13300246A35 /* DashBoardViewModel.swift */; };
+		09854F1B2A41D47E00246A35 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09854F1A2A41D47E00246A35 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		09854F142A3FEEC000246A35 /* UpdateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileView.swift; sourceTree = "<group>"; };
 		09854F162A3FEEF700246A35 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		09854F182A3FF13300246A35 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
+		09854F1A2A41D47E00246A35 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				09854F112A3FEE1D00246A35 /* ProfileViewModel.swift */,
 				09854F182A3FF13300246A35 /* DashBoardViewModel.swift */,
+				09854F1A2A41D47E00246A35 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				09854F192A3FF13300246A35 /* DashBoardViewModel.swift in Sources */,
 				09854F0F2A3FED6E00246A35 /* Router.swift in Sources */,
 				09854F122A3FEE1D00246A35 /* ProfileViewModel.swift in Sources */,
+				09854F1B2A41D47E00246A35 /* ViewModel.swift in Sources */,
 				09854F002A3FEBFA00246A35 /* RouterForViewModelPart1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

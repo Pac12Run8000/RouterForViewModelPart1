@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var router = Router()
-    @StateObject var pViewModel: ProfileViewModel
-    @StateObject var dViewModel: DashboardViewModel
+    @StateObject var viewModel: ViewModel
 
     init(router: Router) {
         _router = StateObject(wrappedValue: router)
-        _pViewModel = StateObject(wrappedValue: ProfileViewModel(router: router))
-        _dViewModel = StateObject(wrappedValue: DashboardViewModel(router: router))
+        _viewModel = StateObject(wrappedValue: ViewModel(router: router))
     }
 
     var body: some View {
@@ -28,12 +26,12 @@ struct ContentView: View {
                     EmptyView()
                 }
                 Button {
-                    pViewModel.updateProfile()
+                    viewModel.updateProfile()
                 } label: {
                     Text("Update profile")
                 }
                 Button {
-                    dViewModel.viewDashboard()
+                    viewModel.viewDashboard()
                 } label: {
                     Text("View Dashboard")
                 }
